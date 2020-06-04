@@ -29,5 +29,7 @@ You will need to handle new rules here [rules.js](https://github.com/DamienBitri
 
 # Slack Notification
 
+You will need to add your Slack Webhook URL [here](https://github.com/DamienBitrise/bitrise-slack-alert-bot/blob/master/utils.js#L2)
+
 You can update the format and contents of the slack notification in [utils.js](https://github.com/DamienBitrise/bitrise-slack-alert-bot/blob/master/utils.js#L12-L60)
 
