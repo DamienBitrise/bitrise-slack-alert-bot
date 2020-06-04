@@ -15,7 +15,7 @@ Simple Rules Engine to alert when Bitrise builds meet certain conditions
 
 # Run on Repl.it
 
-[![Run on Repl.it](https://repl.it/badge/github/DamienBitrise/bitrise-grafana-api)](https://repl.it/github/DamienBitrise/bitrise-grafana-api)
+[![Run on Repl.it](https://repl.it/badge/github/DamienBitrise/bitrise-slack-alert-bot)](https://repl.it/github/DamienBitrise/bitrise-slack-alert-bot)
 
 # Configuring Bitrise Build Webhook
 
