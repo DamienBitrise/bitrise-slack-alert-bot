@@ -1,4 +1,5 @@
 const fetch = require('node-fetch');
+const SLACK_WEBHOOK_URL = '';
 module.exports = {
   BASE_URL: 'https://api.bitrise.io/v0.1/apps',
   getHeaders: (api_key) => {
@@ -23,7 +24,7 @@ module.exports = {
       queueDuration = ((started_on_worker_at.getTime() - triggered_at.getTime()) / 60000).toFixed(2);
       buildDuration = ((finished_at.getTime() - started_on_worker_at.getTime()) / 60000).toFixed(2);
     }
-    fetch('https://hooks.slack.com/services/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', {
+    fetch(SLACK_WEBHOOK_URL, {
         method: 'post',
         body:    JSON.stringify({
           'blocks': [
