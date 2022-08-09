@@ -19,7 +19,7 @@ Simple Rules Engine to alert when Bitrise builds meet certain conditions
 
 # Configuring Bitrise Build Webhook
 
-![](images/webhook.png)
+![](images/webhook2.png)
 
 # Adding new Alert Rules
 
